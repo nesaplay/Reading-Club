@@ -1,7 +1,7 @@
 {
-  "name": "react-basic",
+  "name": "Reading-Club",
   "version": "1.0.0",
-  "description": "preset json, for react projects",
+  "description": "Reading-Club is a Single Page Application build using React library",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server"
