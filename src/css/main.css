@@ -1,0 +1,65 @@
+@import "~normalize.css";
+@import "../../node_modules/materialize-css/dist/css/materialize.css";
+body {
+    display: flex;
+    background: url('http://i.imgur.com/hdbiAn2.png') repeat;
+    min-height: 100vh;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+textarea {
+    height: 300px !important;
+}
+
+section {
+    padding-top: 20px;
+}
+
+.margina {
+    margin: 0 auto;
+}
+
+.heder {
+    padding-top: 10px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+.back {
+    margin-top: 50px;
+    border: 1px solid teal;
+    color: teal !important;
+}
+
+.post {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.profile-image {
+    padding-top: 41px;
+}
+
+.map {
+    height: 200px;
+}
+
+.page-footer {
+    padding-top: 0;
+}
+
+.title {
+    padding-left: 10px;
+}
+
+.page-flexbox-wrapper {
+    display: flex; 
+    min-height: 100vh;
+    flex-direction: column;
+    main flex: 1 1 auto;
+}
