@@ -7,7 +7,7 @@ const About = () => {
         return (
             <main className='container center-align'>
                 <section className='section container'>
-                    <h2 className='teal-text'> OUR STORY </h2>
+                    <h2 className='teal-text'> ABOUT </h2>
                     <p className='flow-text'> {about} </p>
                 </section>
                 <section className='section container'>
