@@ -1,8 +1,10 @@
 import { render } from 'react-dom';
 import React from 'react';
-import 'babel-polyfill';
-import "../node_modules/materialize-css/dist/js/materialize.js";
 import { HashRouter } from 'react-router-dom';
+
+import './css/main.css';
+import "materialize-css";
+import registerServiceWorker from './registerServiceWorker';
 
 import App from './components/app';
 
@@ -11,3 +13,5 @@ render(
         <App />
     </HashRouter>,
     document.getElementById('app'));
+
+registerServiceWorker();

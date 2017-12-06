@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-
 import { get } from '../common/get';
 import Map from './map';
 
@@ -60,7 +58,7 @@ class Author extends Component {
                 <p onClick={this.props.history.goBack} className='back btn-flat'> ↩ Back </p>
                 <section className='row'>
                     <div className='col s4'>
-                        <img src='http://via.placeholder.com/150x150' className='profile-image' />
+                        <img src='http://via.placeholder.com/150x150' alt='' className='profile-image' />
                     </div>
                     <div className='col s8'>
                         <h2><span className='teal-text'>{author.name}</span> </h2>

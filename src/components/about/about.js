@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 let about = 'This is a place where people can read short stories from their favorite authors. Get more than just reading a book - get a personal touch from the creator himself.';
 let story = 'Here I am showcasing using React library, RESTFul API, Routing and communication between different entities. Data provided by JSONPlaceholder, expandable by utilizing local storage. CSS Framework - Materialize.';

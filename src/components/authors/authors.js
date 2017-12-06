@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import { get } from '../common/get';
-import Author from './author';
 import Search from '../common/search';
 import Home from '../posts/home';
 

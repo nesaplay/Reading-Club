@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import GoogleMapReact from 'google-map-react';
-import PropTypes from 'prop-types';
-
 
 export default class Map extends Component {
     constructor(props) {
@@ -28,10 +26,7 @@ export default class Map extends Component {
                 defaultZoom={this.props.zoom}
                 center={this.state.center}
             >
-
             </GoogleMapReact>
-
-
         )
     }
 }

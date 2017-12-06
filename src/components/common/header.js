@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import M from 'materialize-css';
 
 class Header extends Component {
     
     componentDidMount() {
         var elem = document.querySelector('.sidenav');
-        var instance = new M.Sidenav(elem, { edge: 'right' });
+        new M.Sidenav(elem, { edge: 'right' });
     }
 
     render() {

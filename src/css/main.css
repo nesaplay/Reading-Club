@@ -1,5 +1,6 @@
 @import "~normalize.css";
 @import "../../node_modules/materialize-css/dist/css/materialize.css";
+
 body {
     display: flex;
     background: url('http://i.imgur.com/hdbiAn2.png') repeat;

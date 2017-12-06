@@ -53,9 +53,8 @@ class SinglePost extends Component {
                 }
                 let storagePosts = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
 
-                let filteredPosts = storagePosts.filter(post => {
-                    return post.id == this.props.match.params.number
-                }
+                let filteredPosts = storagePosts.filter(post => 
+                     parseInt(post.id, 10) === parseInt(this.props.match.params.number, 10)
                 )
                 return filteredPosts.length ? filteredPosts[0] : {};
             })
