@@ -42,8 +42,7 @@ section {
 }
 
 .profile-image {
-    padding-top: 41px;
-    width: 100%;
+    /* padding-top: 41px; */
 }
 
 .map {
@@ -63,4 +62,18 @@ section {
     min-height: 100vh;
     flex-direction: column;
     main flex: 1 1 auto;
+}
+
+.main-title {
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    .main-title {
+        text-align: center;
+    }
+
+    .author-name {
+        margin: 0;
+    }
 }

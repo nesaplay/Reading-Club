@@ -9,7 +9,7 @@ class Post extends Component {
                 <blockquote>
                     <h5 className = 'teal-text'> {this.props.post.title}</h5>
                 </blockquote>
-                <p> 
+                <p className='flow-text'> 
                     {this.props.post.body}
                 </p>
             </div>

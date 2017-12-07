@@ -119,7 +119,7 @@ class SinglePost extends Component {
                     <Link to={`/authors/${post.userId}`}> <h5>{author.name}</h5> </Link>
                     <br />
 
-                    <p> {post.body} </p>
+                    <p className='flow-text'> {post.body} </p>
                     <div className='divider'> </div>
                 </section>
 

@@ -42,7 +42,7 @@ class Home extends Component {
         }
 
         this.setState({
-            posts: posts.slice(0,100)
+            posts: posts.slice(0, 100)
         });
     }
 
@@ -73,13 +73,14 @@ class Home extends Component {
 
         return (
             <main className='container margina'>
-
-                <h2 className='teal-text' > Posts </h2>
-                <Search
-                    switchRequest={this.updateInstant.bind(this)}
-                    searchRequest={this.updateQuery.bind(this)}
-                    instant={this.state.instant}
-                />
+                <div className='main-title'>
+                    <h2 className='teal-text' > Posts </h2>
+                    <Search
+                        switchRequest={this.updateInstant.bind(this)}
+                        searchRequest={this.updateQuery.bind(this)}
+                        instant={this.state.instant}
+                    />
+                </div>
                 {
                     this.filterItems(this.state.query, [...this.state.newPosts, ...this.state.posts], 'title').map(post =>
                         <Link to={`/posts/${post.id}`} key={post.id}>

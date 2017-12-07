@@ -31,7 +31,7 @@ class Author extends Component {
                     bs: 'loading...',
                     catchPhrase: 'loading...',
                     name: 'loading...'
-                } 
+                }
             }
         }
     }
@@ -47,7 +47,7 @@ class Author extends Component {
     }
 
     componentDidMount() {
-       get.makeRequest(this.updateState, `users/${this.props.match.params.number}`)
+        get.makeRequest(this.updateState, `users/${this.props.match.params.number}`)
     }
 
     render() {
@@ -57,16 +57,19 @@ class Author extends Component {
             <main className='container'>
                 <p onClick={this.props.history.goBack} className='back btn-flat'> ↩ Back </p>
                 <section className='row'>
-                    <div className='col s4'>
-                        <img src='http://via.placeholder.com/150x150' alt='' className='profile-image' />
+                    <div className='col s6'>
+                        <img src='http://via.placeholder.com/150x150' alt='' className='profile-image responsive-img' />
                     </div>
-                    <div className='col s8'>
-                        <h2><span className='teal-text'>{author.name}</span> </h2>
-                        <ul>
-                            <li>username: <span className='teal-text'> {author.username} </span></li>
-                            <li>email: <span className='teal-text'> {author.email} </span></li>
-                            <li>phone: <span className='teal-text'> {author.phone} </span></li>
-                        </ul>
+                    <div className='col s6'>
+                        <div className=''>
+                            <h4 className='author-name'><span className='teal-text'>{author.name}</span></h4>
+                            <ul>
+                                <li>username: <span className='teal-text'> {author.username} </span></li>
+                                <li>email: <span className='teal-text'> {author.email} </span></li>
+                                <li>phone: <span className='teal-text'> {author.phone} </span></li>
+                            </ul>
+
+                        </div>
                     </div>
                 </section>
                 <div className='divider'></div>
@@ -80,7 +83,7 @@ class Author extends Component {
                         </ul>
                     </div>
                     <div className='col s6 map'>
-                        <Map geo={author.address.geo}/>
+                        <Map geo={author.address.geo} />
                     </div>
                 </section>
                 <div className='divider'></div>
