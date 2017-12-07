@@ -1,7 +1,7 @@
 # Reading-Club
 Reading Club is a SPA built using data provided by JSONPlaceholder expandable by utilizing local storage.
 
-[DEMO](https://obscure-dusk-12122.herokuapp.com//)
+[DEMO](https://reading-club-react.herokuapp.com/)
 
 # Showcasing 
 
