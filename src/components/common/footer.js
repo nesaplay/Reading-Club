@@ -22,7 +22,7 @@ class Footer extends Component {
                 <div className='container'>
                     <div className='footer-copyright teal'>
                         © 2017 Copyright
-                        <a className='grey-text text-lighten-4 right' href='#about'>Nenad Radovanovic</a>
+                        <a className='grey-text text-lighten-4 right' href='http://radovanovic.me' target='_blank'>Nenad Radovanovic</a>
                     </div>
                 </div>
             </footer>

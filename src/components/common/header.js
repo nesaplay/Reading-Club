@@ -11,7 +11,7 @@ class Header extends Component {
 
     render() {
         return (
-            <header className='container heder'>
+            <header className='container logo-config'>
                 <nav className='z-depth-0 transparent'>
                     <div className='nav-wrapper'>
                         <Link to='/' href="#" className="brand-logo teal-text left">
