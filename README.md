@@ -2,7 +2,7 @@
 Reading Club is a SPA boilerplate built using data provided by JSONPlaceholder expandable by utilizing local storage. 
 Bring your own authors, start creating content and utilize this framework.
 
-[DEMO](https://reading-club-react.herokuapp.com/)
+[DEMO](https://nesaplay.github.io/Reading-Club/)
 
 # Showcasing 
 
